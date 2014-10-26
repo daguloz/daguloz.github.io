@@ -20,12 +20,14 @@ window.onload = function() {
 	btn_check.onclick = function() {
 		num = parseInt(document.getElementById('num1').value);
 
-		if (isPrime(num))
-			info.innerHTML = 'El número es primo.';
-		else {
-			info.innerHTML = 'El número no es primo.';
-			if (reason)
-				info.innerHTML += '<br />(' + reason + ')';
+		if (!isNaN(num)) {
+			if (isPrime(num))
+				info.innerHTML = 'El número es primo.';
+			else {
+				info.innerHTML = 'El número no es primo.';
+				if (reason)
+					info.innerHTML += '<br />(' + reason + ')';
+			}
 		}
 
 	}
@@ -34,7 +36,11 @@ window.onload = function() {
 function isPrime(num) {
 	var isPrime = false;
 
-	if (num <= 3) {
+	if (num < 2) {
+		isPrime = false;
+		reason = 'No se considera primo ni compuesto.'
+	}
+	else if ((num == 2) || (num == 3)) {
 		isPrime = true;
 	}
 	else {
