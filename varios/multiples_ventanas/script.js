@@ -30,8 +30,8 @@ window.onload = function() {
 			ventana[i].document.write('<!DOCTYPE html><html><head>' +
 				'<meta charset="utf-8" /><title>Ventana ' + (i+1) + '</title>' +
 				'<body>Ventana ' + (i+1) +
-				'<button onClick="window.close()" >Cerrar</button>' +
-				'<script type="text/javascript" src="script.js"></script>' +
+				'<button id="btn_close" >Cerrar</button>' +
+				'<script type="text/javascript" src="cerrar.js"></script>' +
 				'</body></html>');
 
 			ventana[i].document.close();
