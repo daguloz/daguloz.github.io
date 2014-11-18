@@ -1,0 +1,36 @@
+
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 15px;
+	margin: 0 auto;
+}
+
+code {
+	font-family: 'Consolas', 'Droid Sans Mono', monospace;
+	font-size: 14px;
+	color: #293A7F;
+	margin-left: 20px;
+}
+
+label {
+	display: block;
+	padding: 5px 0;
+}
+
+#content {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#data {
+	padding-left: 20px;
+}
+
+#result {
+	background-color: #ECE9C8;
+	border: 1px solid #84CFC8;
+	min-height: 200px;
+	padding: 10px;
+	width: 600px;
+	word-wrap: break-word;
+}
