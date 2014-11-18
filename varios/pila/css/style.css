@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 5px;
+}
+input {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    padding: 10px 5px 5px 0px;
+}
+
+#content {
+    margin: 0 auto;
+    min-width: 200px;
+    text-align: center;
+}
+
+#result {
+    background-color: #ECE9C8;
+    border: 1px solid #84CFC8;
+    min-height: 200px;
+    padding: 10px;
+    width: 600px;
+    word-wrap: break-word;
+    display: block;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#buttons {
+    margin: 0px;
+    padding: 0;
+
+}
+
+#buttons, #result {
+    display: none;
+}
+
+#bPush {
+    margin-top: 10px;
+}
+

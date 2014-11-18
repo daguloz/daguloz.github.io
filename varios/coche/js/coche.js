@@ -1,3 +1,14 @@
+/*
+ * Autor: Daniel Gutiérrez
+ * 17/11/2014
+ *
+ * Objetos coche
+ * Genera cuatro instancias del objeto Coche (propiedades marca, modelo y año)
+ * Imprimer sus propiedades en una tabla HTML (<table>). Genera el código desde 
+ * JavaScript. Cada instancia ha de ocupar una línea (<tr>) y el valor de cada 
+ * propiedad ha de ocupar una celda (<td>).
+ *
+ */
 
 var cars = [], content, i, j, property, row, table, text;
 
