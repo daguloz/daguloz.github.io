@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daniel Gutiérrez - Formulario Completito</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="page">
+
+        <!-- Cabecera -->
+        <header>
+            <h1>Formulario Completito</h1>
+            <h2>Daniel Gutiérrez</h2>
+        </header>
+
+        <!-- Contenido -->
+        <section>
+            
+            <article>
+                <h3><a id="toggleDesc" href="#">Enunciado &darr;</a></h3>
+                <div id="description" class="hidden">
+                    <p>Crea un formulario con todos los tipos de controles y realiza todas las validaciones posibles mediante JavaScript. Utiliza todos los eventos posibles, aunque pueda resultarle tedioso al usuario (al salir de una lista con el tabulador, al pulsar un botón...).</p>
+                    <p>Utiliza el modelo de registro avanzado de eventos según W3C, así como las expresiones regulares. Asegúrate de validar lo siguiente:</p>
+                    <ul>
+                        <li>Obligatoriedad (campo de texto, opción seleccionada (checkbox, radio button y selección)
+                        <li>Tipo de dato introducido (numérico...)</li>
+                        <li>Dirección de correo válida</li>
+                        <li>Número de DNI válido</li>
+                        <li>Fecha válida</li>
+                        <li>Número de teléfono</li>
+                        <li>Número de cuenta corriente</li>
+                        <li>URL</li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <h3>Formulario</h3>
+                <form method="POST">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="text" name="email" />
+    
+                    <label for="dni">DNI</label>
+                    <input id="dni" type="text" name="dni" />
+
+                    <label for="date">Fecha</label>
+                    <input id="date" type="text" name="date" />
+
+                    <label for="phone">Teléfono</label>
+                    <input id="phone" type="text" name="phone" />
+
+                    <label for="account">Cuenta corriente</label>
+                    <input id="account" type="text" name="account" />
+
+                    <label for="url">URL</label>
+                    <input id="url" type="text" name="url" />
+
+                    <input class="button" type="submit" value="Comprobar" />
+
+                </form>
+            </article>
+
+        </section>
+
+
+        <footer>
+            <p>Daniel Gutiérrez Lozano - JavaScript</p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
