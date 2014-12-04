@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Web practica 10 Daniel Gutiérrez Lozano" />
+    <meta name="keywords" content="Web,diw,Daniel Gutiérrez,iesgc,daw" />
+    <title>Daniel Gutiérrez Lozano - Práctica 10</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="page" itempscope itemtype="http://www.data-vocabulary.org/Person">
+
+        <!-- Cabecera -->
+        <header>
+            <h1>Blog personal</h1>
+            <h2>Daniel Gutiérrez</h2>
+            
+            <!-- Navegación -->
+            <nav>
+                <ul>
+                    <li><span itemprop="url"><a href="index.html">Inicio</a></span></li>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Archivo</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <!-- Contenido -->
+        <section>
+            
+            <article>
+                <span class="fondo"></span>
+                <h3>Artículo con imagen</h3>
+                <time>26/11/2014</time>
+                <div class="image water"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat officia corrupti autem, vero sequi quo suscipit illo commodi laborum tenetur, obcaecati perferendis voluptatibus dolor totam atque error minus voluptatum qui?</p>
+                <a class="comments" href="#">1 Comentario<canvas name="comment_icon" width="32" height="26"></canvas></a>
+            </article>
+
+            <article>
+                <span class="fondo"></span>
+                <h3>Artículo con SVG</h3>
+                <time>26/11/2014</time>
+                <!-- <div class="eclipse"></div> -->
+                <object class="image" data="img/eclipse.svg" type="image/svg+xml" width="160" height="160"></object>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius aliquid suscipit sint placeat cumque illo. Explicabo commodi, quam facere aliquam, sit perferendis saepe illo voluptates. Nesciunt quasi quidem, totam quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat officia corrupti autem, vero sequi quo suscipit illo commodi laborum tenetur, obcaecati perferendis voluptatibus dolor totam atque error minus voluptatum qui?</p>
+                <a class="comments" href="#">2 Comentarios<canvas name="comment_icon" width="32" height="26"></canvas></a>
+            </article>
+
+            <article>
+                <span class="fondo"></span>            
+                <h3>Artículo con vídeo</h3>
+                <time>26/11/2014</time>
+                <video width="160px" height="97px" autoplay preload loop>
+                    <source src="video/earth.mp4" type="video/mpeg">
+                    <source src="video/earth.webm" type="video/webm">
+                    Tu navegador no soporta video. Haz clic <a href="">AQUÍ</a> para descargar un navegador compatible
+                </video>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae cumque reprehenderit aliquid a eos harum repudiandae officiis rerum asperiores, illum, dolores optio, ratione sunt maiores voluptatibus perferendis similique id. Est.</p>
+                <a class="comments" href="#">2 Comentarios<canvas name="comment_icon" width="32" height="26"></canvas></a>
+            </article>
+
+        </section>
+
+        <!-- Lateral -->
+        <aside>
+
+            <!-- Caja información -->
+            <div>
+                <span class="fondo"></span>
+                <span itemprop="photo"><div id="photo"></div></span>
+                <h4><span itemprop="name">Daniel Gutierrez</span></h4>
+                <h5><span itemprop="title">Web developer</span></h5>
+                <p>Bienvenido a mi blog, un sitio donde puedes encontrar todo tipo de información y novedades relacionados con el desarollo web.</p>
+            </div>
+
+            <!-- Caja enlaces -->
+            <div>
+                <span class="fondo"></span>
+                <ul>
+                    <li><a href="#">Conectarse</a></li>
+                    <li><a href="#">Estadísticas</a></li>
+                    <li><a href="#">Enlace</a></li>
+                </ul>
+            </div>
+
+            <div class="social">
+                <a href="#"><div class="icon facebook"><span class="fondo"></span></div></a> 
+                <a href="#"><div class="icon reddit"><span class="fondo"></span></div></a>
+                <a href="#"><div class="icon twitter"><span class="fondo"></span></div></a>
+                <a href="#"><div class="icon youtube"><span class="fondo"></span></div></a>
+            </div>
+
+        </aside>
+
+        <!-- Pie -->
+        <footer>
+            <p>Daniel Gutiérrez Lozano - Práctica 10</p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
