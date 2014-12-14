@@ -1,23 +1,10 @@
 /*
  * Autor: Daniel Gutiérrez
- * 27/11/2014
+ * 11/12/2014
  *
- * Crea un formulario con todos los tipos de controles y realiza todas las 
- * validaciones posibles mediante JavaScript. Utiliza todos los eventos posibles,
- * aunque pueda resultarle tedioso al usuario (al salir de una lista con el 
- * tabulador, al pulsar un botón...). 
- * Utiliza el modelo de registro avanzado de eventos según W3C, así como las 
- * expresiones regulares.
- * Asegúrate de validar lo siguiente:
- *
- * - Obligatoriedad (campo de texto, opción seleccionada (checkbox, radio button y selección)
- * - Tipo de dato introducido (numérico...)
- * - Dirección de correo válida
- * - Número de DNI válido
- * - Fecha válida
- * - Número de teléfono
- * - Número de cuenta corriente
- * - URL
+ * Una vez estén todos los datos correctos en el formulario anterior,
+ * almacénalos mediante cookies. Proporciona un botón para que puedan ser
+ * mostrados en una nueva página.
  */
 
 window.onload = function () {
