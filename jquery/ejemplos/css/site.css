@@ -1,0 +1,220 @@
+/* http://themepixels.com/demo/webpage/chain/index.html */
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+article {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 10px;
+    min-width: 400px;
+    padding: 10px;
+    flex: 2;
+    vertical-align: top;
+}
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+h1, h2 {
+    display: inline-block;
+    margin: 0px auto;
+    font-size: 16px;
+}
+
+h3 {
+    border-bottom: 1px solid #ddd;
+    color: #636E7B;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+header {
+    background: #428BCA;
+    color: #fff;
+    display: flex;
+    flex-flow: row;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header a {
+    color: #f9f9f9;
+}
+
+header a:hover {
+    color: #d9d9f9;
+}
+
+header a:visited {
+    color: #d9d9f9;
+}
+
+header .header-left {
+    background: rgba(0,0,0,0.03);
+    border-right: 1px solid rgba(255,255,255,0.14);
+    flex: 1;
+    min-width: 230px;
+    padding-top: 20px;
+    text-align: center;
+    height: 60px;
+}
+
+header .header-right {
+    flex: 7;
+    height: 100%;
+    padding: 20px;
+}
+
+header ul.header-links {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+header ul.header-links li {
+    display: inline-block;
+}
+
+header ul.header-links li:not(:last-child):after {
+    content: " - ";
+}
+
+nav {
+    border-right: 1px solid #eee;
+    flex: 1;
+    margin-top: 60px;
+    min-width: 230px;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    border-top: 1px solid #f7f7f7;
+    display: block;
+    font-size: 16px;
+    padding: 10px 40px;
+    flex: 1;
+    transition: all 0.5s;
+    vertical-align: middle;
+}
+
+
+nav ul li:last-child {
+    border-bottom: 1px solid #eee;
+}
+
+nav ul li:hover, nav ul li.active {
+    background-color: #eef;
+}
+
+nav ul a:hover, nav ul a:visited, nav ul a:link {
+    text-decoration: none;
+}
+
+main {
+    flex: 7;
+    margin-top: 60px;
+    width: auto;
+}
+
+pre {
+    font-family: Consolas, monospace, ‘Courier New’, Courier;
+    font-size: 0.9em;
+}
+
+section {
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: row wrap;
+    padding: 0px 20px;
+}
+
+section:first-child {
+    margin-top: 20px;
+}
+
+table tr.link-row:hover {
+    cursor: pointer;
+}
+
+textarea {
+    display: block;
+    width: 300px;
+    height: 80px;
+}
+
+#page {
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon-dashboard {
+    background: url('../img/icons/cog.png') 16px no-repeat;
+}
+
+.icon-questions {
+    background: url('../img/icons/help.png') 16px no-repeat;
+}
+
+.icon-users {
+    background: url('../img/icons/group.png') 16px no-repeat;
+}
+
+.icon-categories {
+    background: url('../img/icons/table.png') 16px no-repeat;
+}
+
+.icon-tick {
+    background: url('../img/icons/tick.png') 16px no-repeat;
+}
+
+.icon-cross {
+    background: url('../img/icons/cross.png') 16px no-repeat;
+}
+
+.icon-edit {
+    background: url('../img/icons/table_edit.png') 16px no-repeat;
+}
+
+.icon {
+    background-position: 0px 0px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.label {
+    display: inline-block;
+}
+
+.navicon {
+    background-position: 15px 13px;
+}
+
+.bg-light-grey {
+    background-color: #f9f9f9;
+}

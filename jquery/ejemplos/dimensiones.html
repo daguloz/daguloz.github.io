@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Daniel Gutiérrez - Ejemplos jQuery</title>
+    <link href='css/bootstrap.min.css' rel="stylesheet" type="text/css" media="screen">
+    <link href="css/site.css" rel="stylesheet" type="text/css" media="screen">
+  </head>
+  <body>
+    <div id="page">
+    <header>
+      <div class="header-left">
+          <h1><a href="index.html">Ejemplos jQuery</a></h1>
+      </div>
+      <div class="header-right">
+          <h2>Dimensiones</h2>
+      </div>
+    </header>
+
+    <main>
+        <section>
+          <article>
+            <h3>Funciones CSS en jQuery de dimensiones y posición</h3>
+              <p>Probando funciones de localización de elementos en la página...</p>
+              <div id="capa1" style="padding: 24px; background-color: #ffccdd; float: left; border: 2px dotted
+              #666;">
+              <h2>capa1:</h2>
+              Voy a crear esta capa para ver lo que mide y donde está posicionada.
+              </div>
+              <br style="clear: both;">
+              <div style="margin: 10px;">
+              <button id="botondimensiones" type="button">Dimensiones de capa1</button>
+              <button id="botonposicion" type="button">Posicion de capa1</button>
+              <button id="botontamano" type="button">Cambiar tamaño capa1</button>
+              <button id="botonmargen" type="button">Cambiar margen capa1</button>
+              </div>
+              <div style="margin: 10px;">
+              <button id="botondimensionesc2" type="button">Dimensiones de capa2</button>
+              <button id="botonposicionc2" type="button">Posicion de capa2</button>
+              </div>
+              <br>
+              Desplaza la página hacia abajo para ver la capa2...
+              <br>
+          </article>
+        </section>
+        <section>
+          <article>
+            <h3>Resultado</h3>
+            <div id="info"></div>
+          </article>
+        </section>
+
+        <section>
+          <article>
+            <h3>Capa 2</h3>
+                        <div id="capa2" style="background-color:#ccc; border-bottom: 5px solid #999; margin-left: 10px;">
+              Esta capa está muy hacia abajo!!
+              </div>
+          </article>
+        </section>
+    </main>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/dimensiones.js"></script>
+</body>
+</html>
