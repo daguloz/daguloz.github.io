@@ -465,7 +465,7 @@ aside {
 
 main {
   color: #95afba;
-  min-height: 20vh;
+  min-height: 50vh;
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -479,6 +479,7 @@ main {
     margin-top: 20px;
     margin: 20px auto;
     max-width: 75%;
+    min-height: 50vh;
     min-width: 75%;
     padding: 20px 40px;
     position: relative;
@@ -597,18 +598,12 @@ main {
     main section textarea {
       min-height: 100px; }
 
-/* footer
- * background: transparentize($c_light, .9)
- * border-radius: 10px
- * color: $c_light
- * font-size: 12px
- * margin: 0 auto
- * padding: 5px 0px
- * position: relative
- * text:
- *     align: center
- *     shadow: 2px 2px 2px $c_dark
- * width: 90vw */
+#inicio #cloud span {
+  font-family: Quicksand, "Helvetica Neue", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px #272838, 1px -1px 1px #272838, -1px 1px 1px #272838, 1px 1px 1px #272838;
+}
 #page {
   background: url("../images/bg.jpg") 0% 50%;
   min-height: 100vh;
