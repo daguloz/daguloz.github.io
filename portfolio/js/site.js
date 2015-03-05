@@ -48,6 +48,7 @@ $(document).ready(function () {
 
         oldx = $(this).css('left');
         oldy = $(this).css('top');
+
         $(e.target).css({
             'position': 'absolute'
         }).animate({

@@ -5,8 +5,7 @@ $(document).ready(function () {
     $(".parpadear").parpadea();
 
     $("textarea").cuentaCaracteres();
-    //$("div").cuentaCaracteres();
-    console.log('hola');
+    
 });
 
 jQuery.fn.parpadea = function () {
