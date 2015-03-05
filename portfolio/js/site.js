@@ -10,8 +10,22 @@ $(document).ready(function () {
     $("#cv").tabs();
 
     // jQuery UI datepicker
-    $("#fecha_inicio").datepicker({ dateFormat: "dd/mm/yy" });
-    $("#fecha_fin").datepicker({ dateFormat: "dd/mm/yy" });
+    $("#fecha_inicio").datepicker({
+        dateFormat: "dd/mm/yy"
+    });
+    $("#fecha_fin").datepicker({
+        dateFormat: "dd/mm/yy"
+    });
+
+    // Limit date range
+    $("#fecha_inicio").bind('change', function () {
+        var minDate = $('#fecha_inicio').datepicker('getDate');
+        $("#fecha_fin").datepicker('option', 'minDate', minDate);
+    });
+    $("#fecha_fin").bind('change', function () {
+        var maxDate = $('#fecha_fin').datepicker('getDate');
+        $("#fecha_inicio").datepicker('option', 'maxDate', maxDate);
+    });
 
     // Sections order
     oldSection = '#inicio';
